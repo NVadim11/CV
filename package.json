@@ -2,11 +2,10 @@
   "name": "cv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nvadim11.github.io/CV",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "deploy": "next build && gh-pages -d out"
+    "deploy": "npm run build && touch ./out/.nojekyll && gh-pages -d out"
   },
   "dependencies": {
     "next": "15.5.2",
