@@ -2,7 +2,7 @@
   "name": "cv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://NVadim11.github.io/CV",
+  "homepage": "https://nvadim11.github.io/CV",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
