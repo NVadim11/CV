@@ -5,7 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: '/cv'
+  basePath: '/CV'
 }
 
 module.exports = nextConfig
