@@ -5,40 +5,59 @@ export const Experience = () => {
             title: "Frontend Developer",
             company: "SINT",
             employmentType: "Full-time",
-            startDate: "Nov 2024",
+            startDate: "Nov 2023",
             endDate: "Present",
-            location: "Odessa, Ukraine",
+            location: "Remote",
             workType: "Remote",
             responsibilities: [
                 "Developed Web3 platforms with cryptocurrency wallet integrations (MetaMask, WalletConnect).",
-                "Contributed to a high-performing front-end team that delivered a smooth, animated website with Three.js and a Telegram mini app.",
-                "Ensured seamless user interactions and efficient state management using latest React/Redux practices.",
-                "Followed the Feature-Sliced Design project structure with Styled Components.",
-                "Implemented CI/CD pipelines using GitHub Actions for automated linting, and deployment to AWS."
+                "Created animated websites with Three.js and Telegram mini app.",
+                "Frontend architecture, design system, and API integrations.",
+                "Backend collaboration (Node.js), authentication, and integrations.",
+                "Team collaboration, fast releases, and CI/CD implementation."
             ],
             technologies: [
-                "React.js", "Redux", "TypeScript", "Web3.js", "MetaMask", 
-                "WalletConnect", "OAuth 2.0", "Three.js", "Styled Components", 
-                "Feature-Sliced Design", "GitHub Actions", "AWS"
+                "React", "Next.js", "Redux Toolkit", "TypeScript", "Web3.js", 
+                "MetaMask", "WalletConnect", "Three.js", "Styled Components", 
+                "Node.js", "Docker", "AWS"
             ]
         },
         {
             id: 2,
-            title: "Junior Frontend Developer",
-            company: "TechCorp",
+            title: "Frontend Developer",
+            company: "Portal Project",
             employmentType: "Full-time",
-            startDate: "Mar 2024",
-            endDate: "Oct 2024",
-            location: "Kyiv, Ukraine",
-            workType: "Hybrid",
+            startDate: "Jan 2022",
+            endDate: "Oct 2023",
+            location: "Remote",
+            workType: "Remote",
             responsibilities: [
-                "Built responsive web applications using React and modern JavaScript.",
-                "Collaborated with designers to implement pixel-perfect UI components.",
-                "Optimized application performance and improved loading times.",
-                "Participated in code reviews and team meetings."
+                "Developed portal using JavaScript with client-side logic and DOM manipulations.",
+                "API integration and data handling.",
+                "UX optimization and application performance improvements.",
+                "Created responsive interfaces and enhanced user experience."
             ],
             technologies: [
-                "React", "JavaScript", "CSS3", "HTML5", "Git", "Figma"
+                "JavaScript", "HTML5", "CSS3", "REST API", "DOM", "Git"
+            ]
+        },
+        {
+            id: 3,
+            title: "Freelance Web Developer",
+            company: "Self-employed",
+            employmentType: "Part-time",
+            startDate: "Jan 2020",
+            endDate: "Dec 2022",
+            location: "Remote",
+            workType: "Remote",
+            responsibilities: [
+                "Developed websites and landing pages for small businesses.",
+                "Created WordPress stores and theme customization.",
+                "Built interactive features using vanilla JavaScript.",
+                "This experience became the foundation for further specialization in frontend development."
+            ],
+            technologies: [
+                "WordPress", "JavaScript", "HTML5", "CSS3", "SCSS", "PHP", "MySQL"
             ]
         }
     ];
@@ -53,7 +72,7 @@ export const Experience = () => {
 
             <div className="space-y-6">
                 {experiences.map((exp) => (
-                    <div key={exp.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-l-4 border-blue-500 hover:shadow-lg transition-shadow">
+                    <div key={exp.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-l-4 border-blue-500">
                         {/* Заголовок и компания */}
                         <div className="mb-4">
                             <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-2">
@@ -87,8 +106,8 @@ export const Experience = () => {
                             <h4 className="font-medium text-gray-700 dark:text-gray-300 mb-2">Key Responsibilities:</h4>
                             <ul className="space-y-2">
                                 {exp.responsibilities.map((resp, index) => (
-                                    <li key={index} className="flex items-start space-x-2">
-                                        <span className="text-blue-500 mt-1">•</span>
+                                    <li key={index} className="flex items-center space-x-2">
+                                        <span className="text-blue-500 flex-shrink-0">•</span>
                                         <span className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
                                             {resp}
                                         </span>
@@ -104,7 +123,7 @@ export const Experience = () => {
                                 {exp.technologies.map((tech, index) => (
                                     <span 
                                         key={index}
-                                        className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-xs font-medium hover:bg-blue-100 dark:hover:bg-blue-900 hover:text-blue-800 dark:hover:text-blue-200 transition-colors cursor-default"
+                                        className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-xs font-medium"
                                     >
                                         {tech}
                                     </span>
