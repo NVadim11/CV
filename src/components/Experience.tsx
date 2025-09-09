@@ -12,6 +12,7 @@ export const Experience = () => {
             responsibilities: [
                 "Developed Web3 platforms with cryptocurrency wallet integrations (MetaMask, WalletConnect).",
                 "Created animated websites with Three.js and Telegram mini app.",
+                "Integrated AI services including OpenAI API, ElevenLabs TTS, and Model Context Protocol.",
                 "Frontend architecture, design system, and API integrations.",
                 "Backend collaboration (Node.js), authentication, and integrations.",
                 "Team collaboration, fast releases, and CI/CD implementation."
@@ -19,7 +20,7 @@ export const Experience = () => {
             technologies: [
                 "React", "Next.js", "Redux Toolkit", "TypeScript", "Web3.js", 
                 "MetaMask", "WalletConnect", "Three.js", "Styled Components", 
-                "Node.js", "Docker", "AWS"
+                "OpenAI API", "ElevenLabs", "Model Context Protocol", "Node.js", "Docker", "AWS"
             ]
         },
         {
@@ -46,7 +47,7 @@ export const Experience = () => {
             title: "Freelance Web Developer",
             company: "Self-employed",
             employmentType: "Part-time",
-            startDate: "Jan 2020",
+            startDate: "Jan 2021",
             endDate: "Dec 2022",
             location: "Remote",
             workType: "Remote",
