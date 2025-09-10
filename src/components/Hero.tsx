@@ -14,7 +14,6 @@ export const Hero = () => {
                 <div className="absolute left-0 top-0 bottom-0 w-1 bg-blue-500 rounded-l-lg"></div>
                 
                 <div className="flex flex-col md:flex-row items-center md:items-center space-y-4 md:space-y-0 md:space-x-6 pl-4">
-                    {/* Фотография */}
                     <div className="flex-shrink-0">
                         <img 
                             src="cv_photo.jpg" 
@@ -23,7 +22,6 @@ export const Hero = () => {
                         />
                     </div>
                     
-                    {/* Описание */}
                     <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-sm md:text-base flex-grow">
                     Frontend Developer with 4+ years of experience in web development. Started with freelance projects using WordPress and vanilla JavaScript, then moved to building product solutions. For the last 2 years, I&apos;ve been specializing in React/Next.js, working on startups, API integrations, and frontend architecture. Experienced in Web3 platforms, cryptocurrency integrations, and modern development technologies. Known for fast learning, problem-solving, and delivering clean, high-quality code in team environments.
                     </p>
