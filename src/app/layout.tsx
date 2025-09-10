@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${titilliumWeb.variable}`}>
+      <body className={`${titilliumWeb.variable}`} suppressHydrationWarning={true}>
         {children}
       </body>
     </html>
