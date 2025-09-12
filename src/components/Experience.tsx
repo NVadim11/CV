@@ -44,7 +44,7 @@ export const Experience = () => {
         },
         {
             id: 3,
-            title: "Freelance Web Developer",
+            title: "Frontend Developer",
             company: "Self-employed",
             employmentType: "Part-time",
             startDate: "Jan 2021",
