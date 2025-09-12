@@ -4,28 +4,28 @@ export const Skills = () => {
             id: 1,
             title: "Frontend Core",
             skills: [
-                "React 19", "TypeScript", "Vite", "Next.js", "Redux Toolkit", "React Router DOM", "Styled Components", "Tailwind CSS", "HTML5", "CSS3", "SCSS"
+                "React", "TypeScript", "Next.js", "Vite", "Redux Toolkit", "React Router DOM", "Tailwind CSS", "Styled Components", "HTML5", "CSS3", "SCSS"
             ]
         },
         {
             id: 2,
             title: "Backend & Database",
             skills: [
-                "Node.js", "Fastify", "Drizzle ORM", "Prisma", "PostgreSQL", "RESTful API", "WebSocket"
+                "Node.js", "Drizzle ORM", "Prisma", "PostgreSQL", "RESTful API", "WebSocket"
             ]
         },
         {
             id: 3,
-            title: "3D & Graphics",
+            title: "3D & Animation",
             skills: [
-                "Three.js", "@react-three/fiber", "@react-three/drei", "GSAP", "GLSL Shaders", "Lottie React", "Rive", "AOS Animations", "CSS Animations", "Animate.css", "Swiper"
+                "Three.js", "GSAP", "Lottie", "Rive", "CSS Animations"
             ]
         },
         {
             id: 4,
             title: "Authentication & Security",
             skills: [
-                "Keycloak", "JWT", "OAuth 2.0", "OpenID Connect", "JWKS-RSA", "Social Auth", "Secure Authentication Flows", "Telegram Mini Apps", "Telegram WebApp API"
+                "Keycloak", "JWT", "OAuth 2.0", "OpenID Connect", "Telegram Mini Apps", "Social Auth"
             ]
         },
         {
@@ -37,16 +37,9 @@ export const Skills = () => {
         },
         {
             id: 6,
-            title: "DevOps & Infrastructure",
+            title: "DevOps & Tools",
             skills: [
-                "Docker", "Docker Compose", "AWS (ECR, ECS)", "Railway", "Bitbucket Pipelines", "Docker Swarm", "CI/CD"
-            ]
-        },
-        {
-            id: 7,
-            title: "Tools & Analytics",
-            skills: [
-                "Git", "Amplify", "Prettier", "Zod", "Axios", "PostHog", "Sentry", "React Markdown", "Date-fns"
+                "Docker", "Docker Compose", "AWS (ECR, ECS)", "Railway", "Bitbucket Pipelines", "CI/CD", "Git"
             ]
         }
     ];
