@@ -1,6 +1,30 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+@page { size: A4; margin: 10mm; }
+
+@media print {
+  /* Включить точные цвета и убрать растягивание по экрану */
+  html, body { height: auto !important; }
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  /* Сбрасываем full-screen/100vh блоки */
+  [style*="height:100vh"], .h-screen, .min-h-screen, .max-h-screen {
+    height: auto !important; min-height: auto !important; max-height: none !important;
+  }
+
+  /* Где нельзя разрывать элемент внутри */
+  .avoid-break { break-inside: avoid; page-break-inside: avoid; }
+
+  /* Принудительный разрыв страницы после блока */
+  .page-break { break-after: page; page-break-after: always; }
+
+  /* По желанию — общий масштаб контента */
+  /* body { zoom: 0.95; } */
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -15,6 +39,7 @@
 
 html,
 body {
+  height: 100%;
   max-width: 100vw;
   overflow-x: hidden;
 }
@@ -22,7 +47,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-titillium-web), Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
